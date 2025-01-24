@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AIT-582-002-TEAM 8 | 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AIT-582-002-TEAM 8 | CUSTOMER ANALYTICS FOR CHURN PREDICTION</title>
+    <style>
+        html {
+            font-size: 20px;
+        }
+        body {
+            background-color: #c68642;
+            color: black;
+        }
+        h1, h2, p, ul {
+            text-align: center;
+            list-style-position: inside;
+            padding-left: 0;
+        }
+        li {
+            display: inline-block;
+            margin: 10px;
+        }
+        .feedback {
+            font-size: small;
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+        .like-dislike {
+            text-align: center;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            var likeCount = 0;
+            var dislikeCount = 0;
+
+            $('#like-btn').on('click', function() {
+                if (likeCount == 0 && dislikeCount == 0) {
+                    likeCount++;
+                    $('#like-count').text(likeCount);
+                }
+            });
+
+            $('#dislike-btn').on('click', function() {
+                if (dislikeCount == 0 && likeCount == 0) {
+                    dislikeCount++;
+                    $('#dislike-count').text(dislikeCount);
+                }
+            });
+        });
+    </script>
+</head>
+<body>
+    <h1>AIT-582#002 TEAM 8</h1>
+    <p><strong>Project Name:</strong> CUSTOMER ANALYTICS FOR CHURN PREDICTION</p>
+    <p><strong>Team Members:</strong> ROHAN SINGH SARDAR, MANOHAR BABU KATIKA, REHAN YADALI, ROHIT REDDY KADARU, ROHIT CHITYALA, SAGARIKA KOMATI REDDY, DHANYA SRI VASANTHA, SAAKETH HOTA</p>
+    <p><strong>Date:</strong> December 02, 2024</p>
+    <h2>Project Files</h2>
+    <ul>
+        <li><a href="https://mason.gmu.edu/~shota2/AIT%20582_%20TEAM%208_Project%20proposal.pdf" target="_blank">Project Proposal</a></li>
+        <li><a href="https://mason.gmu.edu/~shota2/AIT-582-TEAM%208_Project-Milestone%201.pdf" target="_blank">Project Milestone 1</a></li>
+        <li><a href="https://mason.gmu.edu/~shota2/AIT582002ProjectMilestone2_Team8.html" target="_blank">Project Milestone 2</a></li>
+        <li><a href="https://mason.gmu.edu/~shota2/AIT-582_Team-8_Data%20Cleaning,%20EDA%20&%20Model%20Implementation.html" target="_blank">Project Code</a></li>
+        <li><a href="https://mason.gmu.edu/~shota2/AIT582-_-002_Team8_Final_Presentation_December.html" target="_blank">Project Slides</a></li>
+        <li><a href="https://mason.gmu.edu/~shota2/AIT582002Team8ProjectReport.html" target="_blank">Project Report</a></li>
+    </ul>
+    <div class="like-dislike">
+       	<p style="font-size: medium;">Do you like our project? Click the buttons below to let us know!</p>
+		<button id="like-btn">Like</button>
+		<span id="like-count">0</span>
+		<button id="dislike-btn">Dislike</button>
+		<span id="dislike-count">0</span>
+	</div>
+	<div class="feedback">
+		<p>Do you have any additional feedback? Let us know at shota2@gmu.edu
+
+	
+   <div style="display: flex; justify-content: center; align-items: center;">
+    <img src="https://mason.gmu.edu/~shota2/image.jpeg" alt="image description" />
+</div> 
+</div>
+<html>
+  <head>
+    <title>Display Time</title>
+    <script>
+      function displayTime() {
+        var date = new Date();
+        var time = date.toLocaleTimeString();
+        document.getElementById("clock").innerHTML = time;
+      }
+      setInterval(displayTime, 1000);
+    </script>
+  </head>
+  <body>
+    <h1>Time:</h1> <p id="clock"></p>
+  </body>
+</html>
